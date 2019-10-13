@@ -11,7 +11,7 @@ a {
 }
 
 .container {
-  margin: 80px 40px 0 40px;
+  margin: 200px 60px 0 60px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -41,4 +41,24 @@ a {
 
 .nav-button-selected:hover {
   color: dodgerblue;
+}
+
+.clock-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  margin-top: 17%;
+}
+.year {
+  font-weight: 100;
+  font-size: 2rem;
+  margin:0;
+  padding: 0;
+}
+.time {
+  font-weight: 100;
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
 }
